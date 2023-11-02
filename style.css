@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: pixelArt;
+  src: url(./assets/PixelifySans-Regular.ttf);
+}
+
+#render {
+  border: 5px solid #d75c77;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ea9daa;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#enemy,
+#player_idle,
+#player_walk,
+#bullet {
+  display: none;
+}
